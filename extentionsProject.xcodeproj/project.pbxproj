@@ -12,6 +12,8 @@
 		EE0F92EE1F6058B0000F8BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0F92EC1F6058B0000F8BD1 /* Main.storyboard */; };
 		EE0F92F01F6058B0000F8BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0F92EF1F6058B0000F8BD1 /* Assets.xcassets */; };
 		EE0F92F31F6058B0000F8BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0F92F11F6058B0000F8BD1 /* LaunchScreen.storyboard */; };
+		EE0F92FB1F607FE5000F8BD1 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0F92FA1F607FE5000F8BD1 /* UIButtonExt.swift */; };
+		EE0F92FD1F608491000F8BD1 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0F92FC1F608491000F8BD1 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EE0F92EF1F6058B0000F8BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE0F92F21F6058B0000F8BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE0F92F41F6058B0000F8BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0F92FA1F607FE5000F8BD1 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		EE0F92FC1F608491000F8BD1 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				EE0F92EF1F6058B0000F8BD1 /* Assets.xcassets */,
 				EE0F92F11F6058B0000F8BD1 /* LaunchScreen.storyboard */,
 				EE0F92F41F6058B0000F8BD1 /* Info.plist */,
+				EE0F92FA1F607FE5000F8BD1 /* UIButtonExt.swift */,
+				EE0F92FC1F608491000F8BD1 /* Helpers.swift */,
 			);
 			path = extentionsProject;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0F92EB1F6058B0000F8BD1 /* ViewController.swift in Sources */,
+				EE0F92FB1F607FE5000F8BD1 /* UIButtonExt.swift in Sources */,
 				EE0F92E91F6058B0000F8BD1 /* AppDelegate.swift in Sources */,
+				EE0F92FD1F608491000F8BD1 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
